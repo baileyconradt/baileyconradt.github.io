@@ -1,0 +1,19 @@
+<style>
+  body {
+  margin: 0px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+    
+.topnav{
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(77, 77, 77);
+  color: white;
+  }
+  
+  .navItem {
+  margin: 0px;
+  padding-left: 20px;
+  display: flex;
+  }
+</style>
