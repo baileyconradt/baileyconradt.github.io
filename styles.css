@@ -57,15 +57,23 @@ body {
     flex-direction: row;
     justify-content: space-around;
   }
+
+  .box {
+    margin: 30px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 0px 20px -15px;
+    border-radius: 16px;
+  }
  
 .row {
     display: flex;
     flex-direction: row;
-    margin: 30px;
-    background-color: white;
-    flex: 1;
-    text-align: left;
-    box-shadow: 0px 0px 20px -15px;
+    flex-wrap: wrap;
+}
+
+.row>* {
+  flex: 1 1 300px;
 }
 
 .row-header {
@@ -76,19 +84,23 @@ body {
     flex: 1;
     text-align: center;
     box-shadow: 0px 0px 20px -15px;
+    border-radius: 16px;
 }
 
 .column {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 30px;
-    background-color: white;
-    flex: 1;
-    text-align: center;
-    box-shadow: 0px 0px 20px -15px;
+  }
+
+  .column>* {
+    flex: 1 1 500px;
   }
 
   audio {
     padding: 10px;
+  }
+
+  .page-header {
+    text-align: center;
   }
