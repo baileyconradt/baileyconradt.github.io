@@ -1,38 +1,75 @@
 <html>
+
 <head>
-<link rel="stylesheet" href="styles.css">
-<script src="script.js"></script>
-<link rel="icon" type="image/png" href="images/bc.png" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <link rel="icon" type="image/png" href="images/bc.png" />
 </head>
+
 <body>
 
 
-        <nav class="top-nav">
-                <div class="nav-item">
-                    <a href="index.html"><li id="name"><strong>Bailey Conradt</strong></li></a>
-                </div>
-                <div class="nav-item">
-                    <a href="index.html"><li>Home</li></a>
-                    <a href="about.html"><li>About Me</li></a>
-                    <a href="music.html"><li>Music</li></a>
-                    <a href="contact.html"><li>Contact</li></a>
-                    <a target="_blank" href="https://www.facebook.com/bailey.conradt"><img src="images/facebook.png" height="32px" width="32px"></a>
-                    <a target="_blank" href="https://www.instagram.com/baileyswizzle"><img src="images/instagram.png" height="32px" width="32px"></a>
-                    
-                    
-                       
-                </div>
-            </nav>
+    <nav class="top-nav">
+        <!-- This is the hamburger menu for mobile view-->
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="about.html">
+                    <li>About</li>
+                </a>
+                <a href="music.html">
+                    <li>Music</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <!--This the usual menu for desktop view-->
 
-<div class="row">
-    <div class="box">
-        <h3>Email:</h3>
-        <p><a href="mailto:baileyconradt@gmail.com">baileyconradt@gmail.com</a></p>
-    </div>
-    <div class="box">
-        <h3>Phone:</h3>
-        <p>920-364-5543</p>
-    </div>
-</div>
+        <div class="nav-item">
+            <a href="index.html">
+                <li id="name"><strong>Bailey Conradt</strong></li>
+            </a>
+        </div>
+        <div id="pages" class="nav-item">
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="about.html">
+                <li>About Me</li>
+            </a>
+            <a href="music.html">
+                <li>Music</li>
+            </a>
+            <a href="contact.html">
+                <li>Contact</li>
+            </a>
+            <a target="_blank" href="https://www.facebook.com/bailey.conradt"><img src="images/facebook.png"
+                    height="32px" width="32px"></a>
+            <a target="_blank" href="https://www.instagram.com/baileyswizzle"><img src="images/instagram.png"
+                    height="32px" width="32px"></a>
 
-    </body>
+
+
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="box">
+            <h3>Email:</h3>
+            <p><a href="mailto:baileyconradt@gmail.com">baileyconradt@gmail.com</a></p>
+        </div>
+        <div class="box">
+            <h3>Phone:</h3>
+            <p>920-364-5543</p>
+        </div>
+    </div>
+
+</body>
