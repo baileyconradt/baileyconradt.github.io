@@ -162,7 +162,7 @@ margin-top:10px;
   Mobile view CSS for hamburger
   */
 
-  @media only screen and (max-width: 670px) {
+  @media only screen and (max-width: 768px) {
 
 #pages {
   display:none;
