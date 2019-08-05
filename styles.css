@@ -163,13 +163,25 @@ margin-top:10px;
     text-align: center;
   }
 
-  #menuToggle {
-    display:none
+/* Blog post CSS */
+
+  .separate {
+    display: flex;
+    justify-content: space-between;
   }
+
+.toggleButton:hover {
+cursor: pointer;
+}
+
   
   /* 
   Mobile view CSS for hamburger
   */
+
+  #menuToggle {
+    display:none
+  }
 
   @media only screen and (max-width: 670px) {
 
