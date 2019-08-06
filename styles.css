@@ -59,15 +59,41 @@ margin-top:10px;
     text-decoration: none;
   }
 
+  /* font page CSS*/
+
+  .home-header {
+    padding-top: 40px;
+    text-align: center;
+  }
+
   .circle-image {
     width: 300px;
     height: auto;
     border-radius: 50%;
     padding: 10px;
     margin-top: 20px;
-  
+    margin-bottom: 20px;
+    box-shadow: 0 2 0 5;
   }
 
+  .front-page-background {
+    background-image: url(images/terraceBackground.jpeg);
+    height: 100%; 
+    background-size: cover;
+  }
+
+  .front-page-p {
+    padding: 30px
+  }
+
+  .framed-image {
+  width: 100%;
+  height: auto;
+    
+    background-color: #242424;
+  }
+
+  /* Music Page CSS*/
   .songs {
     padding-top: 10px;
     display: flex;
@@ -158,10 +184,7 @@ margin-top:10px;
     text-align: center;
   }
 
-  .home-header {
-    margin-top: 40px;
-    text-align: center;
-  }
+  
 
 /* Blog post CSS */
 
@@ -183,7 +206,7 @@ cursor: pointer;
     display:none
   }
 
-  @media only screen and (max-width: 670px) {
+  @media only screen and (max-width: 750px) {
 
 #pages {
   display:none;
