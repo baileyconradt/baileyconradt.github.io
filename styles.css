@@ -94,22 +94,31 @@ margin-top:10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);  
   }
 
-  .about-anchor {
+  .button{
     text-decoration: none;
     color: #363636;
   }
 
-  .about-anchor:hover {
-color: #3bb7ff;
-
+  /* hover effects for button*/
+  #button:hover {
+box-shadow: 0px 0px 5px 1px;
   }
 
+  #blue-background {
+    background-color: #3998ccff;
+  }
+
+  .button:hover center-box{
+    background-color: #888888
+  }
+
+  /*
   .front-page-background {
     background-image: url(images/terraceBackground.jpeg);
     height: 100%; 
     background-size: cover;
   }
-
+*/
   .front-page-p {
     padding: 30px
   }
