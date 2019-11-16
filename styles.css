@@ -4,7 +4,7 @@ body {
     margin: 0px;
     background-color: #f2f2f2;
     font-family: "Avenir Next", "Avenir", sans-serif;
-
+    overscroll-behavior: none;
 }
 
 .center {
