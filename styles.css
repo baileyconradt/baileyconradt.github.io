@@ -52,6 +52,13 @@ margin-top:10px;
 
   #name {
     margin-top: 0px;
+    padding: 4px;
+    padding-bottom: 4px;
+  }
+
+  #musicImg {
+    margin-top: 0;
+    height: 38px;
   }
 
   .top-nav a:hover {
@@ -144,7 +151,7 @@ box-shadow: 0px 0px 5px 1px;
     background-color: white;
     text-align: center;
     box-shadow: 0px 0px 20px -15px;
-    border-radius: 16px;
+    border-radius: 8px;
   }
 
   .left-box {
@@ -152,7 +159,7 @@ box-shadow: 0px 0px 5px 1px;
     background-color: white;
     text-align: left;
     box-shadow: 0px 0px 20px -15px;
-    border-radius: 16px;
+    border-radius: 8px;
   }
 
   .home-page-body {
@@ -165,7 +172,7 @@ box-shadow: 0px 0px 5px 1px;
     background-color: white;
     text-align: center;
     box-shadow: 0px 0px 20px -15px;
-    border-radius: 16px;
+    border-radius: 8px;
     min-width: 300px;
     display: inline-block
   }
@@ -205,7 +212,7 @@ box-shadow: 0px 0px 5px 1px;
     flex: 1;
     text-align: center;
     box-shadow: 0px 0px 20px -15px;
-    border-radius: 16px;
+    border-radius: 8px;
 }
 
 .column {
