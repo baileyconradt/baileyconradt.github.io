@@ -201,6 +201,14 @@ box-shadow: 0px 0px 5px 1px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    
+}
+
+.music-row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 #tall.row {
@@ -209,7 +217,7 @@ box-shadow: 0px 0px 5px 1px;
 
 .row>* {
   flex: 1 1 300px;
-}
+} 
 
 
 .row-header {
@@ -282,6 +290,10 @@ cursor: pointer;
   margin-left: 8px;
   margin-right: 8px;
   margin-bottom: 10px;
+}
+
+.left-box {
+  margin: 10px;
 }
 
 /* Hamburger menu stuff */
