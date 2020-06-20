@@ -3,16 +3,10 @@
 <head>
     <title>Blog</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="script.js"></script>
     <link rel="icon" type="image/png" href="images/bc.png" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-5541551511944191",
-            enable_page_level_ads: true
-        });
-    </script>
 </head>
 
 <body>
@@ -77,9 +71,33 @@
     </nav>
 
     <div class="box">
-<p>Blog in progress, check back later for any updates!</p>
+        <p>Welcome to my blog! All of my posts are hosted through the <a
+                href="https://Medium.com/@baileyconradt">Medium.com</a> blog site.</p>
     </div>
+    <div id="blog-posts">
+        <div id="retainable-rss-embed" data-rss="https://medium.com/feed/@baileyconradt" data-layout="grid" data-maxcols="2" 
+            data-poststyle="modal" data-readmore="Read More" data-buttonclass="btn btn-primary" data-offset="-200">
+            &#160;</div>
+    </div>
+    <script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
 
+    <!--<script
+        src="https://rss.bloople.net/?url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40baileyconradt&showtitle=false&showempty=true&type=js"></script>
+    <script
+        src="https://rss.bloople.net/?url=https%3A%2F%2Fanchor.fm%2Fs%2F241f82e4%2Fpodcast%2Frss&showtitle=false&type=js"></script>-->
+
+    <!--<script>
+
+        fetch('https://cors-anywhere.herokuapp.com/http://feeds.feedburner.com/medium/yAHG').then(response => response.text())
+            .then(str => new window.DOMParser().parseFromString(str, "text/xml")).then(res => {
+                console.log(res);
+                document.getElementById("blog").innerHTML = res.childNodes[2].innerHTML
+                //.childNodes[2].childNodes[1].innerHTML;
+                console.log(res.childNodes);
+                console.log(res.childNodes[2].childNodes[1].innerHTML);
+
+            })
+        </script>-->
 
 </body>
 </div>

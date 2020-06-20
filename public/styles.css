@@ -67,7 +67,7 @@ margin-top:10px;
   }
 
   #musicImg {
-    margin-top: 0;
+    margin-top: 7px;
     height: 38px;
   }
 
@@ -241,7 +241,10 @@ box-shadow: 0px 0px 5px 1px;
     text-align: center;
   }
 
-  
+/* Blog CSS*/
+#blog-posts {
+  margin: 30px;
+}
 
 /* Blog post CSS */
 
@@ -272,6 +275,13 @@ cursor: pointer;
 
 #pages {
   display:none;
+}
+
+.box, .center-box{
+  margin-top: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 10px;
 }
 
 /* Hamburger menu stuff */
