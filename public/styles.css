@@ -254,6 +254,11 @@ box-shadow: 0px 0px 5px 1px;
   margin: 30px;
 }
 
+#blog-posts-preview{
+  padding: 30px;
+  background-color: white;
+}
+
 /* Blog post CSS */
 
   .separate {
@@ -263,6 +268,15 @@ box-shadow: 0px 0px 5px 1px;
 
 .toggleButton:hover {
 cursor: pointer;
+}
+
+/* podcast box css */
+.podcast-box{
+margin: 30px;
+padding: 15px;
+background-color: white;
+box-shadow: 0px 0px 20px -15px;
+border-radius: 8px;
 }
 
   
@@ -284,6 +298,8 @@ cursor: pointer;
 #pages {
   display:none;
 }
+
+
 
 .box, .center-box{
   margin-top: 10px;
