@@ -2,102 +2,81 @@
 
 <head>
     <title>Home</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
     <link rel="icon" type="image/png" href="images/BC-logo.svg" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+
+    <a class="navbar-brand" href="index.html"> <img src="images/BC-logo.png" width="30" height="30"
+            class="d-inline-block align-top" alt="" href="index.html"> Bailey Conradt</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="about.html">About Me</a>
+            <a class="nav-item nav-link" href="music.html">Music</a>
+            <a class="nav-item nav-link" href="blog.html">Blog</a>
+            <a class="nav-item nav-link" href="podcast.html">Podcast</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </ul>
+        <!--
+        <ul class="navbar-nav ml-auto">
+            <a target="_blank" class="navbar-brand ml-auto" href="https://www.facebook.com/bailey.conradt"> <img
+                    src="images/facebook.png" width="30" height="30" class="d-inline-block align-top" alt=""
+                    href="index.html" ></a>
+            <a target="_blank" class="navbar-brand ml-auto" href="https://www.instagram.com/baileyswizzle"> <img
+                    src="images/instagram.png" width="30" height="30" class="d-inline-block align-top" alt=""
+                    href="index.html" ></a>
+            </ul>-->
+    </div>
+</nav>
+
 <body>
 
-    <nav class="top-nav">
 
-        <!-- This is the hamburger menu for mobile view-->
-        <div id="menuToggle">
-            <input type="checkbox" />
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul id="menu">
-                <a href="index.html">
-                    <li>Home</li>
+    <div class="front-page-background">
+        <div class="row" id="tall">
+            <div class="home-page-body">
+                <h1 class="home-header">Welcome to my site!</h1>
+                <a class="button" href="about.html">
+                    <div id="button" class="center-box">About Me</div>
                 </a>
-                <a href="about.html">
-                    <li>About</li>
-                </a>
-                <a href="music.html">
-                    <li>Music</li>
-                </a>
-                <a href="blog.html">
-                    <li>Blog</li>
-                </a>
-                <a href="podcast.html">
-                    <li>Podcast</li>
-                </a>
-                <a href="contact.html">
-                    <li>Contact</li>
-                </a>
-            </ul>
-        </div>
-        <!--This the usual menu for desktop view-->
-        <div class="nav-item">
-            <a href="index.html">
-                <li id="name"><strong>Bailey Conradt</strong></li>
-            </a>
-        </div>
-
-        <div id="pages" class="nav-item">
-            <a href="index.html">
-                <li>Home</li>
-            </a>
-            <a href="about.html">
-                <li>About Me</li>
-            </a>
-            <a href="music.html">
-                <li>Music</li>
-            </a>
-            <a href="blog.html">
-                <li>Blog</li>
-            </a>
-            <a href="podcast.html">
-                <li>Podcast</li>
-            </a>
-            <a href="contact.html">
-                <li>Contact</li>
-            </a>
-            <a target="_blank" href="https://www.facebook.com/bailey.conradt"><img src="images/facebook.png"
-                    height="32px" width="32px"></a>
-            <a target="_blank" href="https://www.instagram.com/baileyswizzle"><img src="images/instagram.png"
-                    height="32px" width="32px"></a>
-
-        </div>
-    </nav>
-
-<div class="front-page-background">
-    <div class="row" id="tall">
-        <div class="home-page-body">
-            <h1 class="home-header">Welcome to my site!</h1>
-            <a class="button" href="about.html"><div id="button" class="center-box">About Me</div></a>
-            <div>
-                <img class="circle-image-shadow" src="images/bcon.jpg">
+                <div>
+                    <img class="circle-image-shadow" src="images/bcon.jpg">
+                </div>
+                <div class="box">
+                    <p>Hi! I'm Bailey, and I'm a college student attending UW-Madison. I love music, computers, and
+                        politics!
+                        This is my personal website to add random things to as I learn about web development. I hope you
+                        enjoy
+                        visiting!</p>
+                </div>
             </div>
-            <div class="box">
-                <p>Hi! I'm Bailey, and I'm a college student attending UW-Madison. I love music, computers, and politics!
-                    This is my personal website to add random things to as I learn about web development. I hope you enjoy
-                    visiting!</p>
+            <div class="home-page-body" id="blue-background">
+                <h1 class="home-header">Check out my resume:</h1>
+                <a class="button" target="_blank" href="bailey_resume_dark.pdf">
+                    <div id="button" class="center-box">Dark Mode</div>
+                </a>
+                <a class="button" target="_blank" href="bailey_resume_light.pdf">
+                    <div id="button" class="center-box">Light Mode</div>
+                </a>
+                <iframe src="https://open.spotify.com/embed-podcast/show/2UoczsS60XNqDjCfJqAoIo" width="80%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </div>
-        </div>
-        <div class="home-page-body" id="blue-background">
-            <h1 class="home-header">Check out my resume:</h1>
-            <a class="button" target="_blank" href="bailey_resume_dark.pdf"><div id="button" class="center-box">Dark Mode</div></a>
-            <a class="button" target="_blank" href="bailey_resume_light.pdf"><div id="button" class="center-box">Light Mode</div></a>
         </div>
     </div>
-</div>
 
-<!--blog preview test-->
+    <!--blog preview test-->
 
-<!--<div id="blog-posts-preview">
+    <!--<div id="blog-posts-preview">
     <div id="blog-posts">
         <div id="retainable-rss-embed" data-rss="https://medium.com/feed/@baileyconradt" data-layout="scroll" data-maxcols="3" 
             data-poststyle="modal" data-readmore="Read More" data-buttonclass="btn btn-primary" data-offset="-200">
@@ -105,7 +84,17 @@
 </div>
 <script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script> -->
 
-   <!--<img class="framed-image" src="images/terraceBackground.jpeg" > -->
+    <!--<img class="framed-image" src="images/terraceBackground.jpeg" > -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

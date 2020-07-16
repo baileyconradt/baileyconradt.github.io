@@ -6,8 +6,15 @@ body {
     font-family: "Avenir Next", "Avenir", sans-serif;
     height: 100%;
     width: 100%; 
-   
+    /*box-shadow: inset 0 20px 20px -20px #000000;*/
+
     /*overscroll-behavior: none;*/
+}
+
+.navbar{
+  box-shadow:           0px 3px 15px rgba(50, 50, 50, .7) !important;
+    -webkit-box-shadow: 0px 3px 15px rgba(50, 50, 50, .7) !important;
+    -moz-box-shadow:    0px 3px 15px rgba(50, 50, 50, .7) !important;
 }
 
 .center {
@@ -16,15 +23,14 @@ body {
 
 #blue-background {
   background-color: #3998ccff;
-  box-shadow: inset 0 20px 20px -20px #000000;
+  /*box-shadow: inset 0 20px 20px -20px #000000;*/
 }
 
 .top-nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: #242424;
-    color: white;
-    box-shadow: 0 0 10px black;
+    /*box-shadow: 0 0 10px black;*/
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
     
 }
 
@@ -71,15 +77,6 @@ margin-top:10px;
     height: 38px;
   }
 
-  .top-nav a:hover {
-    background-color: #363636;
-    transition: all ease-in-out 200ms;
-  }
-
-  .top-nav a {
-    text-decoration: none;
-  }
-
   /* font page CSS*/
 
   .home-header {
@@ -118,7 +115,7 @@ margin-top:10px;
 
   /* hover effects for button*/
   #button:hover {
-box-shadow: 0px 0px 5px 1px;
+box-shadow: 0px 0px 5px 1px gray;
   }
 
   
