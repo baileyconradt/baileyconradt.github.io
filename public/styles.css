@@ -194,7 +194,7 @@ box-shadow: 0px 0px 5px 1px gray;
     padding-right: 20px;
   }
  
-.row {
+.home-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -208,11 +208,11 @@ box-shadow: 0px 0px 5px 1px gray;
   justify-content: space-evenly;
 }
 
-#tall.row {
+#tall.home-row {
   height: 100%;
 }
 
-.row>* {
+.home-row>* {
   flex: 1 1 300px;
 } 
 
@@ -220,7 +220,8 @@ box-shadow: 0px 0px 5px 1px gray;
 .row-header {
     display: flex;
     flex-direction: column;
-    margin: 30px;
+    margin: 20px;
+    padding: 20px;
     background-color: white;
     flex: 1;
     text-align: center;
