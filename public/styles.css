@@ -141,6 +141,9 @@ i {
 
 /***************/
 
+/* used to fix the safari CSS issues */
+.row:before, .row:after {display: none !important;} 
+
 .center {
   text-align: center;
 }
