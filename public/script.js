@@ -1,6 +1,5 @@
 ﻿//this is the javascript file
 
-
 //toggles auto-pause for other songs when playing a new song
 document.addEventListener('play', function(e){
     var audios = document.getElementsByTagName('audio');
