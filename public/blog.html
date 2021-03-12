@@ -23,7 +23,7 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul class="navbar-nav ml-auto">
             <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-           
+
             <a class="nav-item nav-link" href="music.html">Music</a>
             <a class="nav-item nav-link active" href="blog.html">Blog</a>
             <a class="nav-item nav-link" href="podcast.html">Podcast</a>
@@ -38,22 +38,10 @@
         <p>Welcome to my blog! All of my posts are hosted through the <a href="https://Medium.com/@baileyconradt"
                 target="_blank">Medium.com</a> blog site.</p>
     </div>
-
-    <!--
-    <div id="blog-posts">
-    <div id="medium-widget"></div>
+    <!-- Blog code -->
+    <div class="blog-container"><div id="medium-widget"></div></div>
     <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@baileyconradt","postsPerLine":2,"limit":4,"picture":"big","fields":["description","author","claps","publishAt"],"ratio":"landscape"}})</script>
-    </div>
--->
-
-    <div id="blog-posts">
-        <div id="retainable-rss-embed" data-rss="https://medium.com/feed/@baileyconradt" data-layout="grid"
-            data-maxcols="3" data-poststyle="modal" data-readmore="Read More" data-buttonclass="btn btn-primary"
-            data-offset="-200">
-            &#160;</div>
-    </div>
-    <script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
+    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@baileyconradt","postsPerLine":3,"limit":6,"picture":"big","fields":["description","author","claps","publishAt"],"ratio":"square"}})</script>
 
     <footer class="col-md-12 bg-dark text-center">
         <a href="https://facebook.com/baileyconradt" target="_blank" class="btn-social btn-facebook"><i
@@ -65,62 +53,7 @@
                 <a href="mailto:baileyconradt@gmail.com" target="_blank" class="btn-social btn-email"><i class="fa fa-envelope"></i></a>
     </footer>
 
-
-    <!--<script
-        src="https://rss.bloople.net/?url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40baileyconradt&showtitle=false&showempty=true&type=js"></script>
-    <script
-        src="https://rss.bloople.net/?url=https%3A%2F%2Fanchor.fm%2Fs%2F241f82e4%2Fpodcast%2Frss&showtitle=false&type=js"></script>-->
-
-    <!--<script>
-
-        fetch('https://cors-anywhere.herokuapp.com/http://feeds.feedburner.com/medium/yAHG').then(response => response.text())
-            .then(str => new window.DOMParser().parseFromString(str, "text/xml")).then(res => {
-                console.log(res);
-                document.getElementById("blog").innerHTML = res.childNodes[2].innerHTML
-                //.childNodes[2].childNodes[1].innerHTML;
-                console.log(res.childNodes);
-                console.log(res.childNodes[2].childNodes[1].innerHTML);
-
-            })
-        </script>-->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
         <!--social icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </body>
-
-<script>
-
-// window.onload = function() {
-//     setTimeout(addCards, 100);
-// }
-
-// function addCards() {
-//     posts = document.getElementsByClassName("rtb-col");
-    
-//     for (let i = 0; i < posts.length; i++) {
-//   posts[i].classList.add("card");
-//   //posts[i].classList.add("p-2");
-//   //posts[i].classList.add("m-1");
-// }
-
-// row = document.getElementsByClassName("row");
-// for (let i = 0; i < posts.length; i++) {
-//   //row[i].style.justifyContent = "space-evenly";
-// }
-
-// rssButtons = document.getElementsByClassName("btn-primary");
-// for (let i = 0; i < posts.length; i++) {
-//     rssButtons[i].classList.add("m-2");
-// }
-       
-// };
-</script>
 </div>

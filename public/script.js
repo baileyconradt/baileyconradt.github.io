@@ -10,28 +10,6 @@ document.addEventListener('play', function(e){
     }
 }, true);
 
-//toggle for blog post description
-
-function toggleBlogPost(blogParagraphId, toggleButtonId) {
-    var blogParagraph = document.getElementById(blogParagraphId);
-    var toggleButton = document.getElementById(toggleButtonId);
-
-console.log(blogParagraph.innerHTML);
-
-    if (blogParagraph) {
-        var display = blogParagraph.style.display;
-
-        if (display == "none") {
-            blogParagraph.style.display = "block";
-            toggleButton.innerHTML = "See Less";
-        } else {
-            blogParagraph.style.display = "none";
-            toggleButton.innerHTML = "See More";
-        }
-    }
-}
-
-
 //hidden function
 function Konami(keyCodes, callback) { 
 
