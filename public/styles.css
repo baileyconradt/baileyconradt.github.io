@@ -21,10 +21,20 @@ body {
   box-shadow: 0px 3px 6px rgba(0, 0, 0, .5);
 }
 
+i.fa {
+  font-size: 30;
+}
+
+i.fa.fa-download, i.fa.fa-external-link {
+  font-size: initial;
+  transform: initial !important;
+}
+
 .custom-button{
   width: 120;
   margin-right: 5px;
   margin-top: 5px;
+  display: inline-table;
 }
 /*footer*/
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
@@ -136,12 +146,19 @@ a.btn-social,
 }
 
 i {
-  transform: translate(0px, 18px) !important;
+  transform: translate(0px, 13px) !important;
 }
 
 .card-img-top {
   width: 100%;
   align-self: center;
+}
+
+footer.col-md-12.bg-dark.text-center {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -399,6 +416,10 @@ box-shadow: 0px 0px 5px 1px gray;
 /* Blog CSS*/
 #blog-posts {
   margin: 30px;
+}
+
+.tb_nc_post_wrapper{
+  width: 33% !important;
 }
 
 #blog-posts-preview{
